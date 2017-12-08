@@ -18,7 +18,6 @@ A website created with C# and HTML where a user can submit a word and determine 
 | **Program recognizes 0 as special**| Input: "10" | Output: "10" |
 | **Program recognizes numbers divisible by 3 as special**| Input: "3" | Output: "9" |
 | **Program collapses special numbers to their corresponding characters **| Input: "21","81" | Output: "1","3" |
-
 | **Program replaces numbers with a 1 in them with Boop!**| Input: "11" | Output: "Boop!" |
 | **Program replaces numbers with a 0 in them with Beep!**| Input: "20" | Output: "Beep!" |
 | **Program replaces numbers divisible my 3 with "I'm sorry, Dave. I'm afraid I can't do that." **| Input: "9" | Output: ""I'm sorry, Dave. I'm afraid I can't do that." |
