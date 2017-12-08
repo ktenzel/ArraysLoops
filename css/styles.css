@@ -7,3 +7,17 @@ body {
 #result {
   margin: 50px;
 }
+
+.question {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #d87f1a;
+  border: 10px solid #d87f1a;
+}
+label {
+  background-color: #f7c083;
+  width: 100%;
+}
+input {
+  text-align: center;
+}
