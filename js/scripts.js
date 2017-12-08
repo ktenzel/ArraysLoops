@@ -1,21 +1,21 @@
-
-function BeepBoop (input) {
-  for (i=0; i,=input; i++){
-    
-  }
-
-
-
-
-}
-
 $(document).ready(function() {
-  $("form#translate").submit(function(event) {
+  $("form#evaluate").submit(function(event) {
     event.preventDefault();
     var input = parseInt($("input#words").val());
-    var result = BeepBoop(input);
+    var result = [];
+    debugger;
+    console.log(input);
 
+
+
+
+
+
+
+      for (var i=0; i<=input; i++) {
+        result.push(i);
+        console.log(i);
       $("#result").text(result);
-    }
-  });
+  };
+});
 });
