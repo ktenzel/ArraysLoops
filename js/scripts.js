@@ -2,13 +2,21 @@
 var beep = "Beep!";
 var boop = "Boop!";
 var dave = "I'm sorry, Dave. I'm afraid I can't do that.";
+var array = []
 var counter = function(input) {
-    if (input % 3 === 0){
-      return dave;
+  for (var i=0; i<=input; i++){
+  array.push(i);
+  console.log(array);
+    if (3 % array[i] === 0){
+      array.push(dave);
+
+    } if (array[i] === 0){
+      array.push(beep);
     } else {
-      return false;
+      return boop;
     }
   }
+}
 // if (result.charAt(i) === 1) {
 //   result.replace(beep);
 // } if (result.charAt(i) === 0) {
@@ -34,8 +42,8 @@ $(document).ready(function() {
     if (!result) {
       console.log("keep working");
     } else {
-      console.log(dave);
+      console.log();
     }
-      $("#result").text(result);
+      $("#result").text(array);
   });
 });
