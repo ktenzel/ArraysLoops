@@ -1,7 +1,17 @@
-function counter (input) {
+//backend
+var counter = function(input) {
   for (var i=0; i<=input; i++) {
-  var array = []
+    if (i % 3 === 0){
+      return dave;
+    } else {
+      return false;
+    }
+
+
   result.push(i);
+  var beep = "Beep!";
+  var boop = "Boop!";
+  var dave = "I'm sorry, Dave. I'm afraid I can't do that.";
   }
 }
 // if (result.charAt(i) === 1) {
@@ -19,17 +29,19 @@ function counter (input) {
 
 
 
-
+//frontend
 $(document).ready(function() {
   $("form#evaluate").submit(function(event) {
     event.preventDefault();
-    var input = $("input#words").val();
+    var input = parseInt($("input#number").val());
     var result = counter(input);
     debugger;
-    var beep = "Beep!";
-    var boop = "Boop!";
-    var dave = "I'm sorry, Dave. I'm afraid I can't do that.";
 
+    if (!result) {
+      console.log("keep working");
+    } else {
+      console.log("true");
+    }
       $("#result").text(result);
   });
 });
