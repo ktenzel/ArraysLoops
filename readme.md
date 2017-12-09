@@ -2,11 +2,11 @@
 
 #### A program that allows users to input a number and replaces numbers containing a 1 with "Boop!" and a 0 with
 
-#### By **Adam Calhoun, Kyle Tenzeldam**
+#### By **Kyle Tenzeldam**
 
 ## Description
 
-A website created with C# and HTML where a user can submit a word and determine its raw Scrabble score.
+A website created with html javascript and jquery to demonstrate the use of loos and arrays
 
 
 ### Specs
@@ -28,7 +28,7 @@ A website created with C# and HTML where a user can submit a word and determine 
 1. Run in browser
 
 ## Known Bugs
-* Code does not exist yet
+* 0 does not produce a beep and after 100 the code brakes
 
 ## Technologies Used
 * JS
@@ -44,4 +44,4 @@ _Email no one with any questions, comments, or concerns._
 
 *{This software is licensed under the MIT license}*
 
-Copyright (c) 2017 **_{Adam Calhoun, Kyle Tenzeldam}_**
+Copyright (c) 2017 **_{, Kyle Tenzeldam}_**

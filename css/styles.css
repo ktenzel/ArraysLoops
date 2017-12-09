@@ -25,7 +25,8 @@ label {
 }
 
 img{
-  width: 80%;
+  width: 300px;
+  height: 500px;
 }
 input {
   text-align: center;
@@ -40,7 +41,10 @@ input {
 /*#result {
   width: 200px;
 }*/
-
+#self {
+  height: 100px;
+  width: 100px;
+}
 .contain {
   color: red;
 }
