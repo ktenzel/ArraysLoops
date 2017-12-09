@@ -6,7 +6,7 @@ body {
 }
 
 #result {
-  margin: 50px;
+  display: none;
 }
 
 .question {
@@ -21,6 +21,7 @@ label {
   background-color: #111111;
   color: red;
   width: 50%;
+  font-family: sans-serif;
 }
 
 img{
@@ -31,7 +32,7 @@ input {
   background-color: #111111;
   font-size: 15;
 }
-#number {
+#number, #name{
   background-color: #111111;
   color: red;
   font-size: 15px;
@@ -41,6 +42,5 @@ input {
 }*/
 
 .contain {
-  text-align: center;
   color: red;
 }
