@@ -28,7 +28,7 @@ A website created with html javascript and jquery to demonstrate the use of loos
 1. Run in browser
 
 ## Known Bugs
-* 0 does not produce a beep and after 100 the code brakes
+* 0 does not produce a beep and after 100 the code brakes. There are still issues with 11-19.
 
 ## Technologies Used
 * JS
